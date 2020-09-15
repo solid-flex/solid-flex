@@ -1,0 +1,9 @@
+@import '../breakpoints';
+
+@media (max-width : $xs) {
+    @for $i from 1 through 24 {
+        [xs="#{$i}"]{
+            width: $i * (100 / 24) * 1%;  
+        }
+    }
+}

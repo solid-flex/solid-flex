@@ -1,0 +1,13 @@
+.r {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rn {
+    display: flex;
+    flex-wrap: nowrap;
+
+    >* {
+        flex: 1;
+    }
+}

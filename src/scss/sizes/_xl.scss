@@ -1,0 +1,7 @@
+@for $i from 1 through 24 {
+    [xl="#{$i}"]{
+        width: $i * (100 / 24) * 1%;
+    }
+}
+
+

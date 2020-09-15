@@ -1,0 +1,13 @@
+@import '../breakpoints';
+
+@media (max-width : $lg) {
+    .rn {
+        flex-wrap: wrap;
+    }
+    @for $i from 1 through 24 {
+        [lg="#{$i}"]{
+            flex: inherit;
+            width: $i * (100 / 24) * 1%;
+        }
+    }
+}
